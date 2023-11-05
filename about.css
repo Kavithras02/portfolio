@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(OIP.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1500px;
+    height: 65px;
+    margin: auto;
+    background: rgb(26, 130, 182);
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding-left: 15px;
+     padding-right:15px;
+     padding-top: 2px;
+}
+
+.navdiv{
+    display: flex; 
+    align-items: center;
+    
+}
+.logo {
+    font-size:50px; 
+    font-weight:600;
+     color: white;}
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+.box{
+    
+     padding-left: 4px; 
+    width: 400px;   
+    height: 500px;   
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 30px;
+    background-color: aqua;
+}
+
+.content h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2px;
+    font-size: medium;
+    color:rgb(35, 31, 31); 
+}
+.content h1{
+    font-size: larger;
+    font-weight: 300;
+}
+.box1{
+    padding-left: 4px; 
+    width: 400px;   
+    height: 500px;   
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 30px;
+    background-color: aqua;
+}
+
